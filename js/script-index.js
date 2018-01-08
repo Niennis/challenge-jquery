@@ -23,11 +23,19 @@ $(document).ready( function(){
 
 
 /*
-* Función que se encarga de pintar TODAS las recetas que tengan 
+* Función que se encarga de imprimir TODAS las recetas que tengan 
 * marcado el atributo "highlighted" como TRUE
 */
+var hlRecipe = [];
 function renderHighlightedRecipes(recipesArray) {
-	console.log('Recipes: ', recipesArray);
+  for(i = 0; i < recipesArray.length ; i++){
+    if(recipesArray[i].highlighted === true){
+      hlRecipe++;
+      console.log(hlRecipe);
+      renderRecipe();
+    }
+  }
+	console.log('Recipes: ', recipesArray[i].highlighted);
 }
 
 /*
@@ -37,6 +45,8 @@ function renderHighlightedRecipes(recipesArray) {
 * archivo "templates/templates-recipe.html"
 */
 function renderRecipe(recipe) {
+  
+
 	console.log('Voy a pintar la receta: ', recipe);
 }
 
