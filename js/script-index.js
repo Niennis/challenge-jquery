@@ -136,3 +136,6 @@ function renderActivity(recipe) {
 }
 renderActivity(recipe);
 
+$('.js-menu').click(function(){
+  window.location.href = "recipe.html";
+});
