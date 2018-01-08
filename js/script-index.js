@@ -44,7 +44,7 @@ function renderHighlightedRecipes(recipesArray) {
 function renderRecipe(recipe) {
   var title = recipesArray[i].title;
   var authorName = recipesArray[i].source.name;
-  var imgRecipe = recipesArray[i].source.img;
+  var imgRecipe = recipesArray[i].name;
   var urlRecipe = recipesArray[i].source.url;
   /*console.log(title);
   console.log(authorName);
@@ -62,7 +62,7 @@ function renderRecipe(recipe) {
     '  </span>' +
     '</span>' +
   
-   ' <img src="' + imgRecipe + '"/>' + ' </a>'
+   ' <img src=" img/recipes/640x480/' + imgRecipe + '.jpg"/>' + ' </a>'
   )
 
 	//console.log('Voy a pintar la receta: ', recipe);
