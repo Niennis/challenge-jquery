@@ -123,7 +123,7 @@ function renderActivity(recipe) {
       '<a href="#" class="item-activity"> ' +  
       '<span class="attribution">' +
       '<span class="avatar">' + 
-      '<img src="' + img + '" class="image-avatar">' +
+      '<img src="' + userAvatar + '" class="image-avatar">' +
       '</span>' + 
       '<span class="meta">' +
       '<span class="author">' + userName + '</span> made ' + 
