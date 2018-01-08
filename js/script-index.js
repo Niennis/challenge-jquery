@@ -5,7 +5,16 @@ $(document).ready( function(){
     $('.js-menu').css("display","none");
 
   });*/
+  // ETAPA 1
   $('.js-back').hide();
+
+  // ETAPA 2
+  function printNews(){
+    $('#news').append('<p>NUEVAS RECETAS</p>');
+  }
+  printNews();
+
+  // ETAPA 3
 
 	//La variable "recipesArray" esta declarada en el archivo "data/recipes.js"
 	renderHighlightedRecipes(recipesArray);
