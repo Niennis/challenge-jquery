@@ -108,6 +108,7 @@ function renderActivities(activitiesArray) {
 * archivo "templates/templates-activity.html"
 */
  // ETAPA 5 Y 6
+var activitiesArray = activities;
 var recipe = activitiesArray;
 function renderActivity(recipe) {
 
