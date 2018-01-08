@@ -1,4 +1,11 @@
 $(document).ready( function(){
+  /*
+	$('.js-back').click(function(){
+    window.location.href = 'recipe.html';
+    $('.js-menu').css("display","none");
+
+  });*/
+  $('.js-back').hide();
 
 	//La variable "recipesArray" esta declarada en el archivo "data/recipes.js"
 	renderHighlightedRecipes(recipesArray);
