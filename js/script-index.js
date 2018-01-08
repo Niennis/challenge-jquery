@@ -111,7 +111,7 @@ function renderActivities(activitiesArray) {
 var recipe = activitiesArray;
 function renderActivity(recipe) {
 
-  $('.wrapper-message').hide();/*
+  $('.wrapper-message').hide();
   for(var i = 0 ; i < activitiesArray.length ; i++){
     var userAvatar = activitiesArray[i].userAvatar;  
     var userName = activitiesArray[i].userName;
@@ -132,7 +132,7 @@ function renderActivity(recipe) {
       '<div class="bg-image" style="background-image: url(' + img + ')"></div>' +
       '</a>'
     )
-  }*/
+  }
 }
 renderActivity(recipe);
 
